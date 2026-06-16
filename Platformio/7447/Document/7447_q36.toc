@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Components}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Breadboard}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Arduino Uno}{2}{}%
+\contentsline {subsection}{\numberline {1.3}IC 7447}{2}{}%
+\contentsline {subsection}{\numberline {1.4}Seven Segment Display}{2}{}%
+\contentsline {section}{\numberline {2}Boolean Simplification}{2}{}%
+\contentsline {section}{\numberline {3}Hardware Connections}{2}{}%
+\contentsline {subsection}{\numberline {3.1}Arduino to 7447}{2}{}%
+\contentsline {subsection}{\numberline {3.2}7447 to Seven Segment Display}{3}{}%
+\contentsline {section}{\numberline {4}Software Implementation}{3}{}%
+\contentsline {section}{\numberline {5}Output}{4}{}%
+\contentsline {section}{\numberline {6}Result}{5}{}%

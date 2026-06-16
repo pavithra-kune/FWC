@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Components}{2}{}%
+\contentsline {section}{\numberline {2}Boolean Simplification}{2}{}%
+\contentsline {section}{\numberline {3}Hardware Connections}{2}{}%
+\contentsline {section}{\numberline {4}Software Implementation}{3}{}%
+\contentsline {section}{\numberline {5}Output}{4}{}%
+\contentsline {section}{\numberline {6}Result}{5}{}%

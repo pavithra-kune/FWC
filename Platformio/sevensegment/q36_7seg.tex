@@ -1,0 +1,150 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+
+\begin{document}
+
+\noindent
+\begin{minipage}[t]{0.2\textwidth}
+\includegraphics[width=2.5cm]{iiitb_logo.png}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.75\textwidth}
+\raggedleft
+
+{\Large \textbf{Pavithra Kune}}
+
+COMETFWC069
+
+\end{minipage}
+
+\vspace{0.8cm}
+
+\begin{center}
+{\Large \textbf{GATE QUESTION Q36}}
+\end{center}
+
+\vspace{0.3cm}
+
+\hrule
+
+\vspace{0.5cm}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{question.png}
+\caption{GATE Question Q36}
+\end{figure}
+
+\tableofcontents
+
+\newpage
+
+\section{Components}
+
+\subsection{Breadboard}
+
+A breadboard is used to make temporary circuit connections.
+
+\subsection{Seven Segment Display}
+
+A common anode seven segment display is used to display the output.
+
+\subsection{Arduino Uno}
+
+Arduino Uno is used to implement the Boolean expression.
+
+\subsection{Jumper Wires}
+
+Jumper wires are used to connect the circuit components.
+
+\section{Boolean Simplification}
+
+Given,
+
+[
+[X+Z{\bar Y+(\bar Z+X\bar Y)}]
+[\bar X+\bar Z(X+Y)]
+]
+
+For (X=1),
+
+[
+F=\bar Z
+]
+
+For output 1,
+
+[
+Z=0
+]
+
+\section{Hardware Connections}
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+Arduino Pin & Segment\
+\hline
+D2 & a\
+D3 & b\
+D4 & c\
+D5 & d\
+D6 & e\
+D7 & f\
+D8 & g\
+\hline
+\end{tabular}
+\end{center}
+
+The common anode pin is connected to +5V.
+
+\section{Software Implementation}
+
+\begin{verbatim}
+int Z = 0;
+int F = !Z;
+
+if(F == 1)
+{
+display1();
+}
+else
+{
+display0();
+}
+\end{verbatim}
+
+\section{Output}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{output1.jpg}
+\caption{Output showing 1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{output0.jpg}
+\caption{Output showing 0}
+\end{figure}
+
+\section{Result}
+
+The given Boolean expression was implemented using Arduino Uno and a seven segment display.
+
+[
+F=\bar Z
+]
+
+Hence,
+
+[
+Z=0
+]
+
+for output 1.
+
+\end{document}
